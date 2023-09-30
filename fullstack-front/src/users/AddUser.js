@@ -25,7 +25,7 @@ export default function AddUser() {
       navigate("/")
     }
 
-  return <div className="container">
+  return (<div className="container">
     <div className="row">
       <div className="col-md-6 offset-md-3 border rounded p-4 mt shadow">
         <h2 className="text-center m-4">Register User</h2>
@@ -82,5 +82,5 @@ export default function AddUser() {
         </form>
       </div>
     </div>
-  </div>;
+  </div>);
 }
